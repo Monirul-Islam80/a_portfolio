@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0% 5%;
+}
+.main > :first-child {
+  width: 40%;
+}
+img {
+  object-fit: cover;
+  animation: 500ms ease 100ms 1 normal both running pop-RIGHT3;
+}
+.main > div {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 33.33%;
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: Roboto, "Helvetica Neue", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", sans-serif;
+}
+.ig {
+  background-color: #00c4cc;
+  animation: 500ms ease 100ms 1 normal both running pop-RIGHT3;
+}
+.yt {
+  animation: 500ms ease 100ms 1 normal both running pop-RIGHT2;
+  background-color: #a548ff;
+}
+.ud {
+  animation: 500ms ease 100ms 1 normal both running pop-RIGHT1;
+  background-color: #6422b8;
+}
+.fb {
+  animation: 500ms ease 100ms 1 normal both running pop-RIGHT2;
+  background-color: #ff738e;
+}
+.pt {
+  animation: 500ms ease 100ms 1 normal both running pop-RIGHT1;
+  background-color: #ffa53b;
+}
+.li {
+  animation: 500ms ease 100ms 1 normal both running pop-RIGHT3;
+  background-color: #ffd93b;
+}
+@keyframes pop-RIGHT3 {
+  0% {
+    animation-timing-function: cubic-bezier(0.52, 2.1, 0.43, 1.22);
+    transform: scale(0);
+  }
+  35% {
+    animation-timing-function: cubic-bezier(0.37, -0.25, 0.07, 2.15);
+    transform: scale(0.937);
+  }
+  77% {
+    animation-timing-function: cubic-bezier(0.28, -0.03, 0.48, 1.2);
+    transform: scale(0.995);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes pop-RIGHT2 {
+  0% {
+    animation-timing-function: cubic-bezier(0.52, 2.1, 0.43, 1.22);
+    transform: scale(0);
+  }
+  35% {
+    animation-timing-function: cubic-bezier(0.37, -0.25, 0.07, 2.15);
+    transform: scale(0.937);
+  }
+  77% {
+    animation-timing-function: cubic-bezier(0.28, -0.03, 0.48, 1.2);
+    transform: scale(0.995);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes pop-RIGHT1 {
+  0% {
+    animation-timing-function: cubic-bezier(0.52, 2.1, 0.43, 1.22);
+    transform: scale(0);
+  }
+  35% {
+    animation-timing-function: cubic-bezier(0.37, -0.25, 0.07, 2.15);
+    transform: scale(0.937);
+  }
+  77% {
+    animation-timing-function: cubic-bezier(0.28, -0.03, 0.48, 1.2);
+    transform: scale(0.995);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
